@@ -40,11 +40,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC    &kp N1   &kp N2       &kp N3       &kp N4         &kp N5                                   &kp N6  &kp N7    &kp N8     &kp N9   &kp N0          &kp LEFT_BRACKET
-&kp MINUS  &lt 1 Q  &kp W        &kp F        &kp P          &kp G                                    &kp J   &kp L     &kp U      &kp Y    &kp SEMICOLON   &kp MINUS
-&kp LCTRL  &kp A    &mt LG(R) R  &lt 3 S      &lt 4 T        &mt SPACE D                              &kp H   &kp N     &kp E      &kp I    &kp O           &kp SQT
-&kp TAB    &kp Z    &kp X        &mt LG(C) C  &mt LG(V) V    &kp B        &kp ENTER        &kp ENTER  &kp K   &kp M     &kp COMMA  &kp DOT  &lt 1 QUESTION  &kp RSHFT
-                                 &kp LG(Z)    &kp LG(LS(Z))  &mo 1        &kp BACKSPACE    &kp SPACE  &mo 2   &kp BSPC  &kp RGUI
+&kp ESC    &kp N1   &kp N2       &kp N3       &kp N4         &kp N5                                     &kp N6  &kp N7    &kp N8     &kp N9   &kp N0          &kp LEFT_BRACKET
+&kp MINUS  &lt 1 Q  &kp W        &kp F        &kp P          &kp G                                      &kp J   &kp L     &kp U      &kp Y    &kp SEMICOLON   &kp MINUS
+&kp LCTRL  &kp A    &mt LG(R) R  &lt 3 S      &lt 4 T        &mt SPACE D                                &kp H   &kp N     &kp E      &kp I    &kp O           &kp SQT
+&kp TAB    &kp Z    &kp X        &mt LG(C) C  &mt LG(V) V    &kp B        &kp ENTER        &lt 1 ENTER  &kp K   &kp M     &kp COMMA  &kp DOT  &lt 1 QUESTION  &kp RSHFT
+                                 &kp LG(Z)    &kp LG(LS(Z))  &mo 1        &kp BACKSPACE    &kp SPACE    &mo 2   &kp BSPC  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
